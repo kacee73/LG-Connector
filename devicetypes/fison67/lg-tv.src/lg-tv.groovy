@@ -489,4 +489,3 @@ def sendCommand(options, _callback){
 	def myhubAction = new physicalgraph.device.HubAction(options, null, [callback: _callback])
     sendHubCommand(myhubAction)
 }
-
